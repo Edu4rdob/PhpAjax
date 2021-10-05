@@ -10,11 +10,10 @@
         <link rel="stylesheet" href="estilo.css" type="text/css"/>
     </head>
     <body>
-        <a href="#janela1" rel="modal">Novo Usuario</a>
-        <a href="#janela2" rel="modal2">Excluir Usuario</a>
+        <h1>ATIVIDADE: ADICIONANDO OU REMOVENDO USUÁRIO COM AJAX</h1>
         <!--        Tabela de exibição dos dados-->
         <div id="table">
-            <table  border="1px" cellpadding="5px" cellspacing="0">
+            <table  border="1px" style="border-style: dashed; margin:auto; margin-top:10%;" cellpadding="5px" cellspacing="0">
                 <tr> <!-- <tr> -> table row -->
                     <th>Id</th> <!-- <td> -> table data -->
                     <th>Nome</th> <!-- <th> -> table header -->
@@ -72,6 +71,8 @@
                 </form>
             </div>
         </div>
+        <button><a href="#janela1" rel="modal">Novo Usuario</a></button>
+        <button><a href="#janela2" rel="modal2">Excluir Usuario</a></button>
     </body>
 </html>
 

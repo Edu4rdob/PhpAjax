@@ -1,6 +1,10 @@
 label{
     display: block;
 }
+body{
+    margin: auto !important;
+    text-align: center;
+}
 .window{
     display:none; /* esconder o elemento */
     width:200px;
